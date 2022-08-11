@@ -29,12 +29,9 @@ Infinitely Rotating CSS Transition - this requires a small amount of javascript 
 const loadingSpinner = document.querySelector('.loadingSpinner');
 
 const rotateSpinner = () => {
-
-  let loadingSpinnerStyles = window.getComputedStyle(loadingSpinner);
-  let rotation = loadingSpinnerStyles.getPropertyValue('--rotation');
+  let rotation = window.getComputedStyle(loadingSpinner).getPropertyValue('--rotation');
   rotation = parseInt(rotation.replace('rotate(', '').replace('deg)', '')) + 360;
-  rotation = 'rotate(' + rotation + 'deg)';
-  loadingSpinner.style.setProperty('--rotation', rotation);
+  loadingSpinner.style.setProperty('--rotation', 'rotate(' + rotation + 'deg)');
 }
 
 loadingSpinner.addEventListener('transitionend', rotateSpinner);
