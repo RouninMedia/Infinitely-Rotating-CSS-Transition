@@ -1,5 +1,5 @@
 # Infinitely Rotating CSS Transition
-Infinitely Rotating CSS Transition - this requires a small amount of javascript but it demonstrates how to get a CSS Transition to act like a CSS Animation with an `animation-iteration-count` value of `infinite`.
+The **Infinitely Rotating CSS Transition** - requires a dash of javascript but it demonstrates how to get a **CSS Transition** to act like a **CSS Animation** with an `animation-iteration-count` value of `infinite`.
 
 ## HTML
 ```html
