@@ -34,6 +34,6 @@ const rotateSpinner = () => {
   loadingSpinner.style.setProperty('--rotation', 'rotate(' + rotation + 'deg)');
 }
 
-loadingSpinner.addEventListener('transitionend', rotateSpinner);
 window.addEventListener('load', rotateSpinner);
+loadingSpinner.addEventListener('transitionend', rotateSpinner);
 ```
