@@ -37,3 +37,9 @@ const rotateSpinner = () => {
 window.addEventListener('load', rotateSpinner);
 loadingSpinner.addEventListener('transitionend', rotateSpinner);
 ```
+_______
+
+## Further Reading:
+
+ - https://stackoverflow.com/questions/35411694/alternative-to-keyframes-in-css#answer-73327151
+ - https://www.kirupa.com/html5/looping_a_css_transition.htm
